@@ -68,7 +68,7 @@ button:disabled {
 }
 
 .title {
-  margin-block-end: 40px;
+  margin-block-end: 20px;
   font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
   text-align: center;
   font-family: 'STIX Two Text';
