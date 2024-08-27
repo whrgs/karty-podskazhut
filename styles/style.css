@@ -13,8 +13,10 @@
 }
 
 .theme_dark {
-  --bg-color: #171717;;
-  --text-color: #b3b3b3;;
+  --bg-color: #171717;
+  ;
+  --text-color: #b3b3b3;
+  ;
   --accent-color: transparent;
 }
 
@@ -60,7 +62,7 @@ button:disabled {
 }
 
 .content-section {
-  padding: 0 5vi;
+  padding: 0 6vi;
 }
 
 .header {
@@ -72,24 +74,29 @@ button:disabled {
   font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
   text-align: center;
   font-family: 'STIX Two Text';
-   padding-top: 114px;
+  padding-top: 114px;
 }
 
 .content__title {
   margin: 7% 0 2.5%;
   font-size: 30px;
+  font-family: 'STIX Two Text';
+  line-height: 90%;
 }
 
 .content__text-block {
   font-size: 18px;
 }
 
-.content__text-block .content__paragraph:not(:last-of-type) {
+.content__paragraph {
   margin-block-end: 1.5em;
+  font-family: 'Raleway';
 }
+
 
 .content__text-block a {
   color: inherit;
+
 }
 
 .content__blockquote {
@@ -97,11 +104,13 @@ button:disabled {
   margin: 0 auto 1.5em;
   font-style: italic;
   line-height: 2;
+  font-family: 'Raleway';
 }
 
 .content__list {
   padding: 0 0 0 40px;
   list-style: none;
+  font-family: 'Raleway';
 }
 
 .content__list li {
@@ -151,6 +160,7 @@ button:disabled {
   padding: 20px;
   font-size: 18px;
   text-align: center;
+  font-family: 'Raleway';
 }
 
 .content__card {
@@ -169,11 +179,13 @@ button:disabled {
 
 .content__card-subtitle {
   font-size: 18px;
+  font-family: 'Raleway';
 }
 
 .colored-text {
   position: relative;
   display: inline-block;
+  font-family: 'STIX Two Text';
 }
 
 .colored-text::after {
@@ -198,9 +210,10 @@ button:disabled {
 
 .header__theme-toggler {
   display: flex;
-  gap: 20px;
+  gap: 18px;
   padding: 0;
   list-style: none;
+  font-family: 'Raleway';
 }
 
 .header__theme-button {
